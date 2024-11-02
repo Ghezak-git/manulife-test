@@ -1,0 +1,14 @@
+spring.application.name=manulife
+spring.profiles.active={eg dev, prod}
+
+# DataSource settings
+spring.datasource.url=jdbc:postgresql://{your-host}:5432/manulife
+spring.datasource.username={your-username}
+spring.datasource.password={your-password}
+
+# Hibernate settings
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+
+# Server settings
+server.port={your-port}
